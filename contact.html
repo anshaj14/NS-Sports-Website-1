@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | N.S Sports</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-flex">
+      <img src="images/logo.png" alt="N.S Sports Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('images/contact-banner.jpg'); height: 60vh;">
+    <div class="hero-content">
+      <h1>Contact Us</h1>
+      <p>Let’s build your next sports project together</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container" style="padding: 4rem 0;">
+    <h2>Get in Touch</h2>
+    <div class="contact-wrapper">
+      <!-- Contact Form -->
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Company Info</h3>
+        <p><strong>Address:</strong> N.S Sports, ABC Road, Your City, India</p>
+        <p><strong>Phone:</strong> +91-9876543210</p>
+        <p><strong>Email:</strong> contact@nssports.com</p>
+        <p><strong>Hours:</strong> Mon–Sat: 9AM – 6PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional Map Embed -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.6950115328414!2d75.78727081488967!3d26.912433983122236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7c0c1d8be0f%3A0xb32429e0be084ff1!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1678912345678"
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-flex">
+      <p>&copy; 2025 N.S Sports. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="#"><img src="images/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="images/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="images/youtube.svg" alt="YouTube" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
